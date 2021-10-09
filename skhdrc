@@ -1,0 +1,23 @@
+
+# Navigation
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+#shift + lctrl - h : yabai -m space --focus prev
+#shift + lctrl - l : yabai -m space --focus next
+#lctrl + alt - h : yabai -m window --space prev; yabai -m space --focus prev
+#lctrl + alt - l : yabai -m window --space next; yabai -m space --focus next
+lctrl + alt - h : yabai -m display --focus next 
+lctrl + alt - l : yabai -m display --focus prev
+
+# Moving windows
+shift + alt - h : yabai -m window --warp west
+shift + alt - j : yabai -m window --warp south
+shift + alt - k : yabai -m window --warp north
+shift + alt - l : yabai -m window --warp east
+
+# Moving spacies
+# ctrl + shift + h : yabai -m space --focus prev
+# ctrl + shift + l : yabai -m space --focus next
